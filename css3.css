@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(./img/head/backgroud.png);
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-x;
+    background-size: 100% 400px;
+}
+.w{
+    width: 900px;
+    margin: 0px auto;
+}
+.logo{
+    padding-top: 31px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    /*background-color: #b7b8ce;*/
+}
+.logo img{
+    width: 225px;
+}
+.header{
+    /*background-color: aqua;*/
+}
+.nav ul{
+    float: right;
+    width: 540px;
+    margin-top: 30px;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    width: 97px;
+    border-left: 1px dotted #b7b8ce;
+    padding-left: 7px;
+}
+.nav a{
+    text-decoration: none;
+    color: #666680;
+    font: bold 14px Georgia;
+}
+.nav a:hover{
+    color: #999;
+}
+.nav p{
+    color: #b7b8ce;
+    font:11px tahome;
+}
+.banner{
+    position: relative;
+}
+.banner .img{
+    box-shadow: 0px 5px 5px #666680;
+    border-radius: 0px 0px 8px 8px;
+    width: 100%;
+}
+.banner a{
+    float: left;
+    margin-right: 5px;
+    text-decoration: none;
+    transition: all;
+}
+.banner .atag {
+    position: absolute;
+    left: 21px;
+    top: 302px;
+}
+.banner .atag img:hover{
+    transform: scale(1.2);
+}
+.clearFix:before,
+.clearFix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.content h1{
+    padding-top: 6px;
+    text-align: center;
+    font: bold 24px Georgia;
+    margin-bottom: 10px;
+}
+.content .perfectLogic , .contact .SocialConnection{
+    float: left;
+    width: 290px;
+    /*background-color: #666680;*/
+    margin-top: 30px;
+}
+.content .completeSolution , .contact .Contact{
+    float: left;
+    width: 290px;
+    margin: 0 15px;
+    /*background-color: #666680;*/
+    margin-top: 30px;
+
+}
+.content .uberCulture , .contact .NewsUpdataes{
+    float: left;
+    width: 290px;
+    /*background-color: #666680;*/
+    margin-top: 30px;
+}
+.content h2 , .contact h2{
+    color: #11719e;
+    font:21px Georgia;
+}
+.content p , .contact p{
+    color: #8c8c8c;
+    font: 12px Helvetica;
+}
+.content .imgDiv {
+    margin: 16px 0px;
+    height: 200px;
+    /*height: 1rem;*/
+    width: 100%;
+    background: radial-gradient(red 12%, white 100%);
+    padding: 3px 0px;
+}
+.content .imgDiv img{
+    width:100%;
+    height:100%;
+}
+.content .description {
+    height: 92px;
+    font: 13px Helvetica;
+}
+.content .backgroud{
+    width: 150px;
+    height: 30px;
+    background: radial-gradient(ellipse,white,gray );
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+.content a{
+    text-decoration: none;
+}
+.content .backgroud:hover{
+    background: radial-gradient(ellipse,white,yellowgreen);
+    transform: scale(1.2);
+}
+.content{
+    border-bottom: double 2px gray;
+    margin-bottom: 30px;
+}
+.contact .txt , .contact .txtarea{
+    box-shadow: 1px 1px 1px #666680 ;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    width: 290px;
+    height: 30px;
+    border: 1px solid #666680;
+    user-focus-pointer: pointer;
+    padding: 2px;
+}
+.contact .txtarea{
+    height: 139px;
+    resize: none;
+}
+.contact hr{
+    margin: 10px 0px;
+    border-top: dotted 1px black;
+}
+.contact .button{
+    width: 163px;
+    height: 32px;
+    background: radial-gradient(ellipse,cornflowerblue 10%, #0f61ff 90%);
+    /*border-radius: 5px;*/
+    border: none;
+}
+.contact .button:hover{
+    transform: scale(1.2);
+    background: radial-gradient(ellipse, #ed62c4 10%, #ff488d 90%);
+}
+.contact .distance{
+    margin-bottom: 20px;
+}
+.contact .dis{
+    margin-top: 8px;
+}
+.contact .NewsUpdataes img{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+}
+.contact .NewsUpdataes .imgbg{
+    float: left;
+    width: 56px;
+    height: 56px;
+    background-color: #ccc4ce;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.contact .NewsUpdataes p{
+    float: left;
+    width: 225px;
+}
+.contact .NewsUpdataes .clearFix{
+    margin-bottom: 15px;
+}
+.contact .adjust{
+    margin-top: 3px;
+}
+.contact .newslatter{
+    font-weight: bold;
+    color: black;
+}
+.contact{
+    margin-bottom: 30px;
+}
+.footer{
+    background-image: url(./img/footer/backgroud.png);
+    background-repeat: repeat-x;
+    /*background-size: 100% 400px;*/
+    height: 200px;
+}
+.footer p , .footer a{
+    color: #999;
+    font:11px Helvetica;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer .copy{
+    float: right;
+}
+.footer .w{
+    padding: 28px 23px 0px 28px;
+}
+.footer .middlep{
+    margin: 10px 0px;
+}
+.footer a:hover{
+    color: #ccc4ce;
+}
